@@ -6,7 +6,7 @@ Create files with image ids and features. The ids should start from 0 and be inc
 
 ## Compress Example
 ```
-python compress-iota_i64.py iota out_dir hdf5_comp_features hdf5_comp_ids --feat_hdf5_name 'DATA' --p N --norm
+python flex-compress-r64.py <iota> <out_dir> <hdf5_comp_features> <hdf5_comp_ids> --feat_hdf5_name 'DATA' --p <N> --norm
 ```
 
 For more details run python flex-compress-r64.py --help
